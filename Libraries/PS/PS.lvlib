@@ -87,6 +87,11 @@
 		<Item Name="Wait on Event Sync.vi" Type="VI" URL="../Wait on Event Sync.vi"/>
 		<Item Name="Wait on Module Sync.vi" Type="VI" URL="../Wait on Module Sync.vi"/>
 	</Item>
+	<Item Name="Types" Type="Folder">
+		<Item Name="PS.lvclass" Type="LVClass" URL="../classes/PowerSupply/PS.lvclass"/>
+		<Item Name="PS_Sim.lvclass" Type="LVClass" URL="../classes/Simulated/PS_Sim.lvclass"/>
+		<Item Name="PS_Generic.lvclass" Type="LVClass" URL="../classes/Generic/PS_Generic.lvclass"/>
+	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
