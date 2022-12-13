@@ -10,32 +10,33 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Demo" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Demo - QuickDrop.vi" Type="VI" URL="../Demo/Demo - QuickDrop.vi"/>
-			<Item Name="Demo - Shortcuts - Pt1.vi" Type="VI" URL="../Demo/Demo - Shortcuts - Pt1.vi"/>
-			<Item Name="Demo - Shortcuts - Pt2.vi" Type="VI" URL="../Demo/Demo - Shortcuts - Pt2.vi"/>
-			<Item Name="Demo - Shortcuts - Pt1_ SubVI.vi" Type="VI" URL="../Demo/Demo - Shortcuts - Pt1_ SubVI.vi"/>
-		</Item>
 		<Item Name="Modules" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Model.lvlib" Type="Library" URL="../Libraries/Model/Model.lvlib"/>
-			<Item Name="INSTR.lvlib" Type="Library" URL="../Libraries/INSTR/INSTR.lvlib"/>
-			<Item Name="PS.lvlib" Type="Library" URL="../Libraries/PS/PS.lvlib"/>
-			<Item Name="DAQ.lvlib" Type="Library" URL="../Libraries/DAQ/DAQ.lvlib"/>
-			<Item Name="SCOPE.lvlib" Type="Library" URL="../Libraries/SCOPE/SCOPE.lvlib"/>
-			<Item Name="Master.lvlib" Type="Library" URL="../Libraries/Master/Master.lvlib"/>
-			<Item Name="Slave.lvlib" Type="Library" URL="../Libraries/Slave/Slave.lvlib"/>
+			<Item Name="Instruments" Type="Folder">
+				<Item Name="Model.lvlib" Type="Library" URL="../Libraries/Model/Model.lvlib"/>
+				<Item Name="INSTR.lvlib" Type="Library" URL="../Libraries/INSTR/INSTR.lvlib"/>
+				<Item Name="PS.lvlib" Type="Library" URL="../Libraries/PS/PS.lvlib"/>
+				<Item Name="DAQ.lvlib" Type="Library" URL="../Libraries/DAQ/DAQ.lvlib"/>
+				<Item Name="SCOPE.lvlib" Type="Library" URL="../Libraries/SCOPE/SCOPE.lvlib"/>
+			</Item>
+			<Item Name="SingletonAndClonables" Type="Folder">
+				<Item Name="Master.lvlib" Type="Library" URL="../Libraries/Master/Master.lvlib"/>
+				<Item Name="Slave.lvlib" Type="Library" URL="../Libraries/Slave/Slave.lvlib"/>
+			</Item>
 		</Item>
 		<Item Name="Testers" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Test Model API.vi" Type="VI" URL="../Libraries/Model/Test Model API.vi"/>
-			<Item Name="Test INSTR API.vi" Type="VI" URL="../Libraries/INSTR/Test INSTR API.vi"/>
-			<Item Name="Test DAQ API.vi" Type="VI" URL="../Libraries/DAQ/Test DAQ API.vi"/>
-			<Item Name="Test PS API.vi" Type="VI" URL="../Libraries/PS/Test PS API.vi"/>
-			<Item Name="Test SCOPE API.vi" Type="VI" URL="../Libraries/SCOPE/Test SCOPE API.vi"/>
-			<Item Name="Test Master API.vi" Type="VI" URL="../Libraries/Master/Test Master API.vi"/>
-			<Item Name="Test Slave API.vi" Type="VI" URL="../Libraries/Slave/Test Slave API.vi"/>
+			<Item Name="Instruments" Type="Folder">
+				<Item Name="Test Model API.vi" Type="VI" URL="../Libraries/Model/Test Model API.vi"/>
+				<Item Name="Test INSTR API.vi" Type="VI" URL="../Libraries/INSTR/Test INSTR API.vi"/>
+				<Item Name="Test DAQ API.vi" Type="VI" URL="../Libraries/DAQ/Test DAQ API.vi"/>
+				<Item Name="Test PS API.vi" Type="VI" URL="../Libraries/PS/Test PS API.vi"/>
+				<Item Name="Test SCOPE API.vi" Type="VI" URL="../Libraries/SCOPE/Test SCOPE API.vi"/>
+			</Item>
+			<Item Name="SingletonsAndClonables" Type="Folder">
+				<Item Name="Test Master API.vi" Type="VI" URL="../Libraries/Master/Test Master API.vi"/>
+				<Item Name="Test Slave API.vi" Type="VI" URL="../Libraries/Slave/Test Slave API.vi"/>
+			</Item>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -80,7 +81,6 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="Not A Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Not A Rendezvous.vi"/>
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
@@ -113,7 +113,6 @@
 				<Item Name="Wait at Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Wait at Rendezvous.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
