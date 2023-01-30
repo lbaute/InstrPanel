@@ -96,6 +96,10 @@
 		<Item Name="Wait on Event Sync.vi" Type="VI" URL="../Wait on Event Sync.vi"/>
 		<Item Name="Wait on Module Sync.vi" Type="VI" URL="../Wait on Module Sync.vi"/>
 	</Item>
+	<Item Name="Handling Clones" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Ring Value Update.vi" Type="VI" URL="../Ring Value Update.vi"/>
+	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
