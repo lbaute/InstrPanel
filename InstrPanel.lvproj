@@ -10,19 +10,27 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Classes" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="DAQ.lvclass" Type="LVClass" URL="../Classes/DAQ/DAQ.lvclass"/>
+			<Item Name="DAQ Simulated.lvclass" Type="LVClass" URL="../Classes/DAQ Simulated/DAQ Simulated.lvclass"/>
+			<Item Name="DAQ NI.lvclass" Type="LVClass" URL="../Classes/DAQ NI/DAQ NI.lvclass"/>
+			<Item Name="PS.lvclass" Type="LVClass" URL="../Classes/PS/PS.lvclass"/>
+			<Item Name="PS Simulated.lvclass" Type="LVClass" URL="../Classes/PS Simulated/PS Simulated.lvclass"/>
+			<Item Name="PS Keysight.lvclass" Type="LVClass" URL="../Classes/PS Keysight/PS Keysight.lvclass"/>
+			<Item Name="SCOPE.lvclass" Type="LVClass" URL="../Classes/Scope/Scope/SCOPE.lvclass"/>
+			<Item Name="SCOPE Simulated.lvclass" Type="LVClass" URL="../Classes/Scope Simulated/Scope Sim/SCOPE Simulated.lvclass"/>
+			<Item Name="SCOPE Tektronix.lvclass" Type="LVClass" URL="../Classes/Scope Tektronix/SCOPE Tektronix.lvclass"/>
+		</Item>
 		<Item Name="Modules" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Instruments" Type="Folder">
-				<Item Name="Model.lvlib" Type="Library" URL="../Libraries/Model/Model.lvlib"/>
-				<Item Name="INSTR.lvlib" Type="Library" URL="../Libraries/INSTR/INSTR.lvlib"/>
-				<Item Name="PS.lvlib" Type="Library" URL="../Libraries/PS/PS.lvlib"/>
-				<Item Name="DAQ.lvlib" Type="Library" URL="../Libraries/DAQ/DAQ.lvlib"/>
-				<Item Name="SCOPE.lvlib" Type="Library" URL="../Libraries/SCOPE/SCOPE.lvlib"/>
-			</Item>
-			<Item Name="SingletonAndClonables" Type="Folder">
-				<Item Name="Master.lvlib" Type="Library" URL="../Libraries/Master/Master.lvlib"/>
-				<Item Name="Slave.lvlib" Type="Library" URL="../Libraries/Slave/Slave.lvlib"/>
-			</Item>
+			<Item Name="INSTR.lvlib" Type="Library" URL="../Libraries/INSTR/INSTR.lvlib"/>
+			<Item Name="Model.lvlib" Type="Library" URL="../Libraries/Model/Model.lvlib"/>
+			<Item Name="PS.lvlib" Type="Library" URL="../Libraries/PS/PS.lvlib"/>
+			<Item Name="DAQ.lvlib" Type="Library" URL="../Libraries/DAQ/DAQ.lvlib"/>
+			<Item Name="SCOPE.lvlib" Type="Library" URL="../Libraries/SCOPE/SCOPE.lvlib"/>
+			<Item Name="Master.lvlib" Type="Library" URL="../Libraries/Master/Master.lvlib"/>
+			<Item Name="Slave.lvlib" Type="Library" URL="../Libraries/Slave/Slave.lvlib"/>
 		</Item>
 		<Item Name="Testers" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>

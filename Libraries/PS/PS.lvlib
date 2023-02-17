@@ -9,9 +9,8 @@
 
 </Property>
 	<Item Name="Custom" Type="Folder">
-		<Item Name="PS.lvclass" Type="LVClass" URL="../classes/PowerSupply/PS.lvclass"/>
-		<Item Name="Keysight.lvclass" Type="LVClass" URL="../classes/Generic/Keysight.lvclass"/>
-		<Item Name="PS_Sim.lvclass" Type="LVClass" URL="../classes/Simulated/PS_Sim.lvclass"/>
+		<Item Name="td_en_pstype.ctl" Type="VI" URL="../td_en_pstype.ctl"/>
+		<Item Name="PS Class Load.vi" Type="VI" URL="../PS Class Load.vi"/>
 	</Item>
 	<Item Name="Public API" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
