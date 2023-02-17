@@ -11,6 +11,7 @@
 	<Item Name="Custom" Type="Folder">
 		<Item Name="td_en_pstype.ctl" Type="VI" URL="../td_en_pstype.ctl"/>
 		<Item Name="PS Class Load.vi" Type="VI" URL="../PS Class Load.vi"/>
+		<Item Name="Demo.vi" Type="VI" URL="../Demo.vi"/>
 	</Item>
 	<Item Name="Public API" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
@@ -22,7 +23,7 @@
 				<Item Name="Show Panel Argument--cluster.ctl" Type="VI" URL="../Show Panel Argument--cluster.ctl"/>
 				<Item Name="Hide Panel Argument--cluster.ctl" Type="VI" URL="../Hide Panel Argument--cluster.ctl"/>
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
-				<Item Name="Simulation Argument--cluster.ctl" Type="VI" URL="../Simulation Argument--cluster.ctl"/>
+				<Item Name="Set Power Supply Argument--cluster.ctl" Type="VI" URL="../Set Power Supply Argument--cluster.ctl"/>
 				<Item Name="Set Voltage Argument--cluster.ctl" Type="VI" URL="../Set Voltage Argument--cluster.ctl"/>
 				<Item Name="Set Current Argument--cluster.ctl" Type="VI" URL="../Set Current Argument--cluster.ctl"/>
 				<Item Name="Set Output Argument--cluster.ctl" Type="VI" URL="../Set Output Argument--cluster.ctl"/>
@@ -30,8 +31,8 @@
 				<Item Name="Open (Reply Payload)--cluster.ctl" Type="VI" URL="../Open (Reply Payload)--cluster.ctl"/>
 				<Item Name="Close Argument--cluster.ctl" Type="VI" URL="../Close Argument--cluster.ctl"/>
 				<Item Name="Close (Reply Payload)--cluster.ctl" Type="VI" URL="../Close (Reply Payload)--cluster.ctl"/>
-				<Item Name="Get Module Data Argument--cluster.ctl" Type="VI" URL="../Get Module Data Argument--cluster.ctl"/>
-				<Item Name="Get Module Data (Reply Payload)--cluster.ctl" Type="VI" URL="../Get Module Data (Reply Payload)--cluster.ctl"/>
+				<Item Name="Get PS Data Argument--cluster.ctl" Type="VI" URL="../Get PS Data Argument--cluster.ctl"/>
+				<Item Name="Get PS Data (Reply Payload)--cluster.ctl" Type="VI" URL="../Get PS Data (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -48,12 +49,12 @@
 				<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			</Item>
 			<Item Name="Open.vi" Type="VI" URL="../Open.vi"/>
-			<Item Name="Simulation.vi" Type="VI" URL="../Simulation.vi"/>
+			<Item Name="Set Power Supply.vi" Type="VI" URL="../Set Power Supply.vi"/>
 			<Item Name="Set Voltage.vi" Type="VI" URL="../Set Voltage.vi"/>
 			<Item Name="Set Current.vi" Type="VI" URL="../Set Current.vi"/>
 			<Item Name="Set Output.vi" Type="VI" URL="../Set Output.vi"/>
 			<Item Name="Close.vi" Type="VI" URL="../Close.vi"/>
-			<Item Name="Get Module Data.vi" Type="VI" URL="../Get Module Data.vi"/>
+			<Item Name="Get PS Data.vi" Type="VI" URL="../Get PS Data.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
