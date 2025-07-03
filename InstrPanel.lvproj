@@ -12,25 +12,33 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Classes" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Camera" Type="Folder">
+				<Item Name="Camera.lvclass" Type="LVClass" URL="../Classes/Camera/Camera.lvclass"/>
+				<Item Name="Canon.lvclass" Type="LVClass" URL="../Classes/Canon/Canon.lvclass"/>
+				<Item Name="Nikon.lvclass" Type="LVClass" URL="../Classes/Nikon/Nikon.lvclass"/>
+				<Item Name="Test Camera.vi" Type="VI" URL="../Classes/Test Camera.vi"/>
+			</Item>
 			<Item Name="DAQ.lvclass" Type="LVClass" URL="../Classes/DAQ/DAQ.lvclass"/>
 			<Item Name="DAQ Simulated.lvclass" Type="LVClass" URL="../Classes/DAQ Simulated/DAQ Simulated.lvclass"/>
 			<Item Name="DAQ NI.lvclass" Type="LVClass" URL="../Classes/DAQ NI/DAQ NI.lvclass"/>
-			<Item Name="PS.lvclass" Type="LVClass" URL="../Classes/PS/PS.lvclass"/>
-			<Item Name="PS Simulated.lvclass" Type="LVClass" URL="../Classes/PS Simulated/PS Simulated.lvclass"/>
-			<Item Name="PS Keysight.lvclass" Type="LVClass" URL="../Classes/PS Keysight/PS Keysight.lvclass"/>
 			<Item Name="SCOPE.lvclass" Type="LVClass" URL="../Classes/Scope/Scope/SCOPE.lvclass"/>
 			<Item Name="SCOPE Simulated.lvclass" Type="LVClass" URL="../Classes/Scope Simulated/Scope Sim/SCOPE Simulated.lvclass"/>
 			<Item Name="SCOPE Tektronix.lvclass" Type="LVClass" URL="../Classes/Scope Tektronix/SCOPE Tektronix.lvclass"/>
 		</Item>
 		<Item Name="Modules" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="SingletonClonable" Type="Folder">
+				<Item Name="Master.lvlib" Type="Library" URL="../Libraries/Master/Master.lvlib"/>
+				<Item Name="Slave.lvlib" Type="Library" URL="../Libraries/Slave/Slave.lvlib"/>
+			</Item>
 			<Item Name="Model.lvlib" Type="Library" URL="../Libraries/Model/Model.lvlib"/>
 			<Item Name="DAQ.lvlib" Type="Library" URL="../Libraries/DAQ/DAQ.lvlib"/>
 			<Item Name="PS.lvlib" Type="Library" URL="../Libraries/PS/PS.lvlib"/>
 			<Item Name="SCOPE.lvlib" Type="Library" URL="../Libraries/SCOPE/SCOPE.lvlib"/>
 			<Item Name="INSTR.lvlib" Type="Library" URL="../Libraries/INSTR/INSTR.lvlib"/>
-			<Item Name="Master.lvlib" Type="Library" URL="../Libraries/Master/Master.lvlib"/>
-			<Item Name="Slave.lvlib" Type="Library" URL="../Libraries/Slave/Slave.lvlib"/>
+			<Item Name="Control Panel.lvlib" Type="Library" URL="../Libraries/Control Panel/Control Panel.lvlib"/>
+			<Item Name="Productivity Tool.lvlib" Type="Library" URL="../Libraries/Productivity Tool/Productivity Tool.lvlib"/>
+			<Item Name="DQMH_byOOPRef.lvlib" Type="Library" URL="../Libraries/DQMH_byOOPRef/DQMH_byOOPRef.lvlib"/>
 		</Item>
 		<Item Name="Support" Type="Folder"/>
 		<Item Name="Testers" Type="Folder">
@@ -46,6 +54,9 @@
 				<Item Name="Test Master API.vi" Type="VI" URL="../Libraries/Master/Test Master API.vi"/>
 				<Item Name="Test Slave API.vi" Type="VI" URL="../Libraries/Slave/Test Slave API.vi"/>
 			</Item>
+			<Item Name="Test Control Panel API.vi" Type="VI" URL="../Libraries/Control Panel/Test Control Panel API.vi"/>
+			<Item Name="Test Productivity Tool API.vi" Type="VI" URL="../Libraries/Productivity Tool/Test Productivity Tool API.vi"/>
+			<Item Name="Test DQMH_byOOPRef API.vi" Type="VI" URL="../Libraries/DQMH_byOOPRef/Test DQMH_byOOPRef API.vi"/>
 		</Item>
 		<Item Name="Launcher.vi" Type="VI" URL="../Libraries/Launcher.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -54,6 +65,7 @@
 				<Item Name="AddNamedRendezvousPrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/AddNamedRendezvousPrefix.vi"/>
 				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
@@ -96,6 +108,8 @@
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Not A Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Not A Rendezvous.vi"/>
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
