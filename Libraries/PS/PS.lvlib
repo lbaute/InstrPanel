@@ -13,14 +13,17 @@
 </Property>
 	<Item Name="Custom" Type="Folder">
 		<Item Name="classes" Type="Folder">
-			<Item Name="PS.lvclass" Type="LVClass" URL="../../../Classes/PS/PS.lvclass"/>
-			<Item Name="PS Simulated.lvclass" Type="LVClass" URL="../../../Classes/PS Simulated/PS Simulated.lvclass"/>
-			<Item Name="PS Keysight.lvclass" Type="LVClass" URL="../../../Classes/PS Keysight/PS Keysight.lvclass"/>
-			<Item Name="PS Test.lvclass" Type="LVClass" URL="../../../Classes/PS Test/PS Test.lvclass"/>
+			<Item Name="PS.lvclass" Type="LVClass" URL="../Custom/PS/PS.lvclass"/>
+			<Item Name="PS Simulated.lvclass" Type="LVClass" URL="../Custom/PS Simulated/PS Simulated.lvclass"/>
+			<Item Name="PS Keysight.lvclass" Type="LVClass" URL="../Custom/PS Keysight/PS Keysight.lvclass"/>
+			<Item Name="PS Test.lvclass" Type="LVClass" URL="../Custom/PS Test/PS Test.lvclass"/>
 		</Item>
-		<Item Name="td_en_pstype.ctl" Type="VI" URL="../td_en_pstype.ctl"/>
-		<Item Name="PS Class Load.vi" Type="VI" URL="../PS Class Load.vi"/>
-		<Item Name="Demo.vi" Type="VI" URL="../Demo.vi"/>
+		<Item Name="Types" Type="Folder">
+			<Item Name="td_en_pstype.ctl" Type="VI" URL="../td_en_pstype.ctl"/>
+		</Item>
+		<Item Name="subVIs" Type="Folder">
+			<Item Name="PS Class Load.vi" Type="VI" URL="../PS Class Load.vi"/>
+		</Item>
 	</Item>
 	<Item Name="Public API" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
@@ -134,4 +137,6 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Test PS API.vi" Type="VI" URL="../Test PS API.vi"/>
+	<Item Name="Demo.vi" Type="VI" URL="../Demo.vi"/>
 </Library>

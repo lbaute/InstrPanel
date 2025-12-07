@@ -34,11 +34,13 @@
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
-			<Item Name="Show Panel.vi" Type="VI" URL="../Show Panel.vi"/>
-			<Item Name="Hide Panel.vi" Type="VI" URL="../Hide Panel.vi"/>
-			<Item Name="Stop Module.vi" Type="VI" URL="../Stop Module.vi"/>
-			<Item Name="Get Module Execution Status.vi" Type="VI" URL="../Get Module Execution Status.vi"/>
-			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
+			<Item Name="Default" Type="Folder">
+				<Item Name="Show Panel.vi" Type="VI" URL="../Show Panel.vi"/>
+				<Item Name="Hide Panel.vi" Type="VI" URL="../Hide Panel.vi"/>
+				<Item Name="Stop Module.vi" Type="VI" URL="../Stop Module.vi"/>
+				<Item Name="Get Module Execution Status.vi" Type="VI" URL="../Get Module Execution Status.vi"/>
+				<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
+			</Item>
 			<Item Name="Simulation.vi" Type="VI" URL="../Simulation.vi"/>
 			<Item Name="Set Output.vi" Type="VI" URL="../Set Output.vi"/>
 			<Item Name="Load in SubPane.vi" Type="VI" URL="../Load in SubPane.vi"/>
@@ -113,4 +115,5 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Test DAQ API.vi" Type="VI" URL="../Test DAQ API.vi"/>
 </Library>

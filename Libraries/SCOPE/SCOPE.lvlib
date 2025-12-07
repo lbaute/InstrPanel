@@ -25,6 +25,7 @@
 				<Item Name="Simulation Argument--cluster.ctl" Type="VI" URL="../Simulation Argument--cluster.ctl"/>
 				<Item Name="Acquire Signal Argument--cluster.ctl" Type="VI" URL="../Acquire Signal Argument--cluster.ctl"/>
 				<Item Name="Load in SubPane Argument--cluster.ctl" Type="VI" URL="../Load in SubPane Argument--cluster.ctl"/>
+				<Item Name="UnLoad SubPane Argument--cluster.ctl" Type="VI" URL="../UnLoad SubPane Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -33,14 +34,17 @@
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
-			<Item Name="Show Panel.vi" Type="VI" URL="../Show Panel.vi"/>
-			<Item Name="Hide Panel.vi" Type="VI" URL="../Hide Panel.vi"/>
-			<Item Name="Stop Module.vi" Type="VI" URL="../Stop Module.vi"/>
-			<Item Name="Get Module Execution Status.vi" Type="VI" URL="../Get Module Execution Status.vi"/>
-			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
+			<Item Name="Default" Type="Folder">
+				<Item Name="Show Panel.vi" Type="VI" URL="../Show Panel.vi"/>
+				<Item Name="Hide Panel.vi" Type="VI" URL="../Hide Panel.vi"/>
+				<Item Name="Stop Module.vi" Type="VI" URL="../Stop Module.vi"/>
+				<Item Name="Get Module Execution Status.vi" Type="VI" URL="../Get Module Execution Status.vi"/>
+				<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
+			</Item>
 			<Item Name="Simulation.vi" Type="VI" URL="../Simulation.vi"/>
 			<Item Name="Acquire Signal.vi" Type="VI" URL="../Acquire Signal.vi"/>
 			<Item Name="Load in SubPane.vi" Type="VI" URL="../Load in SubPane.vi"/>
+			<Item Name="UnLoad SubPane.vi" Type="VI" URL="../UnLoad SubPane.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -107,4 +111,5 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Test SCOPE API.vi" Type="VI" URL="../Test SCOPE API.vi"/>
 </Library>

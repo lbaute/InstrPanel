@@ -30,11 +30,13 @@
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
-			<Item Name="Show Panel.vi" Type="VI" URL="../Show Panel.vi"/>
-			<Item Name="Hide Panel.vi" Type="VI" URL="../Hide Panel.vi"/>
-			<Item Name="Stop Module.vi" Type="VI" URL="../Stop Module.vi"/>
-			<Item Name="Get Module Execution Status.vi" Type="VI" URL="../Get Module Execution Status.vi"/>
-			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
+			<Item Name="Default" Type="Folder">
+				<Item Name="Show Panel.vi" Type="VI" URL="../Show Panel.vi"/>
+				<Item Name="Hide Panel.vi" Type="VI" URL="../Hide Panel.vi"/>
+				<Item Name="Stop Module.vi" Type="VI" URL="../Stop Module.vi"/>
+				<Item Name="Get Module Execution Status.vi" Type="VI" URL="../Get Module Execution Status.vi"/>
+				<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
+			</Item>
 			<Item Name="Simulation.vi" Type="VI" URL="../Simulation.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
@@ -106,4 +108,5 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Test Model API.vi" Type="VI" URL="../Test Model API.vi"/>
 </Library>
