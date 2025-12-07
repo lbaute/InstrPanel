@@ -21,16 +21,16 @@
 			<Item Name="DAQ.lvclass" Type="LVClass" URL="../Classes/DAQ/DAQ.lvclass"/>
 			<Item Name="DAQ Simulated.lvclass" Type="LVClass" URL="../Classes/DAQ Simulated/DAQ Simulated.lvclass"/>
 			<Item Name="DAQ NI.lvclass" Type="LVClass" URL="../Classes/DAQ NI/DAQ NI.lvclass"/>
-			<Item Name="SCOPE.lvclass" Type="LVClass" URL="../Classes/Scope/Scope/SCOPE.lvclass"/>
-			<Item Name="SCOPE Simulated.lvclass" Type="LVClass" URL="../Classes/Scope Simulated/Scope Sim/SCOPE Simulated.lvclass"/>
-			<Item Name="SCOPE Tektronix.lvclass" Type="LVClass" URL="../Classes/Scope Tektronix/SCOPE Tektronix.lvclass"/>
+			<Item Name="SCOPE.lvclass" Type="LVClass" URL="../Classes/SCOPE/Scope/SCOPE.lvclass"/>
+			<Item Name="SCOPE Simulated.lvclass" Type="LVClass" URL="../Classes/SCOPE Simulated/Scope Sim/SCOPE Simulated.lvclass"/>
+			<Item Name="SCOPE Tektronix.lvclass" Type="LVClass" URL="../Classes/SCOPE Tektronix/SCOPE Tektronix.lvclass"/>
+		</Item>
+		<Item Name="Master-Slave" Type="Folder">
+			<Item Name="Master.lvlib" Type="Library" URL="../Libraries/Master/Master.lvlib"/>
+			<Item Name="Slave.lvlib" Type="Library" URL="../Libraries/Slave/Slave.lvlib"/>
 		</Item>
 		<Item Name="Modules" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="SingletonClonable" Type="Folder">
-				<Item Name="Master.lvlib" Type="Library" URL="../Libraries/Master/Master.lvlib"/>
-				<Item Name="Slave.lvlib" Type="Library" URL="../Libraries/Slave/Slave.lvlib"/>
-			</Item>
 			<Item Name="Model.lvlib" Type="Library" URL="../Libraries/Model/Model.lvlib"/>
 			<Item Name="DAQ.lvlib" Type="Library" URL="../Libraries/DAQ/DAQ.lvlib"/>
 			<Item Name="PS.lvlib" Type="Library" URL="../Libraries/PS/PS.lvlib"/>
@@ -39,24 +39,6 @@
 			<Item Name="Control Panel.lvlib" Type="Library" URL="../Libraries/Control Panel/Control Panel.lvlib"/>
 			<Item Name="Productivity Tool.lvlib" Type="Library" URL="../Libraries/Productivity Tool/Productivity Tool.lvlib"/>
 			<Item Name="DQMH_byOOPRef.lvlib" Type="Library" URL="../Libraries/DQMH_byOOPRef/DQMH_byOOPRef.lvlib"/>
-		</Item>
-		<Item Name="Support" Type="Folder"/>
-		<Item Name="Testers" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Instruments" Type="Folder">
-				<Item Name="Test Model API.vi" Type="VI" URL="../Libraries/Model/Test Model API.vi"/>
-				<Item Name="Test INSTR API.vi" Type="VI" URL="../Libraries/INSTR/Test INSTR API.vi"/>
-				<Item Name="Test DAQ API.vi" Type="VI" URL="../Libraries/DAQ/Test DAQ API.vi"/>
-				<Item Name="Test PS API.vi" Type="VI" URL="../Libraries/PS/Test PS API.vi"/>
-				<Item Name="Test SCOPE API.vi" Type="VI" URL="../Libraries/SCOPE/Test SCOPE API.vi"/>
-			</Item>
-			<Item Name="SingletonsAndClonables" Type="Folder">
-				<Item Name="Test Master API.vi" Type="VI" URL="../Libraries/Master/Test Master API.vi"/>
-				<Item Name="Test Slave API.vi" Type="VI" URL="../Libraries/Slave/Test Slave API.vi"/>
-			</Item>
-			<Item Name="Test Control Panel API.vi" Type="VI" URL="../Libraries/Control Panel/Test Control Panel API.vi"/>
-			<Item Name="Test Productivity Tool API.vi" Type="VI" URL="../Libraries/Productivity Tool/Test Productivity Tool API.vi"/>
-			<Item Name="Test DQMH_byOOPRef API.vi" Type="VI" URL="../Libraries/DQMH_byOOPRef/Test DQMH_byOOPRef API.vi"/>
 		</Item>
 		<Item Name="Launcher.vi" Type="VI" URL="../Libraries/Launcher.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
