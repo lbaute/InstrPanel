@@ -13,6 +13,7 @@
 </Property>
 	<Item Name="Custom" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Master.lvclass" Type="LVClass" URL="../Custom/class Master/Master.lvclass"/>
 		<Item Name="FP Position.vi" Type="VI" URL="../Custom/subVIs/FP Position.vi"/>
 	</Item>
 	<Item Name="Public API" Type="Folder">
