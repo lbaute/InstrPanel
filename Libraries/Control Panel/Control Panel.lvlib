@@ -106,4 +106,5 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Test Control Panel API.vi" Type="VI" URL="../Test Control Panel API.vi"/>
 </Library>
