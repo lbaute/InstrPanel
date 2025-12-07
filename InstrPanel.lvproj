@@ -18,12 +18,14 @@
 				<Item Name="Nikon.lvclass" Type="LVClass" URL="../Classes/Nikon/Nikon.lvclass"/>
 				<Item Name="Test Camera.vi" Type="VI" URL="../Classes/Test Camera.vi"/>
 			</Item>
-			<Item Name="DAQ.lvclass" Type="LVClass" URL="../Classes/DAQ/DAQ.lvclass"/>
-			<Item Name="DAQ Simulated.lvclass" Type="LVClass" URL="../Classes/DAQ Simulated/DAQ Simulated.lvclass"/>
-			<Item Name="DAQ NI.lvclass" Type="LVClass" URL="../Classes/DAQ NI/DAQ NI.lvclass"/>
-			<Item Name="SCOPE.lvclass" Type="LVClass" URL="../Classes/SCOPE/Scope/SCOPE.lvclass"/>
-			<Item Name="SCOPE Simulated.lvclass" Type="LVClass" URL="../Classes/SCOPE Simulated/Scope Sim/SCOPE Simulated.lvclass"/>
-			<Item Name="SCOPE Tektronix.lvclass" Type="LVClass" URL="../Classes/SCOPE Tektronix/SCOPE Tektronix.lvclass"/>
+		</Item>
+		<Item Name="Instr Panel" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Model.lvlib" Type="Library" URL="../Libraries/Model/Model.lvlib"/>
+			<Item Name="DAQ.lvlib" Type="Library" URL="../Libraries/DAQ/DAQ.lvlib"/>
+			<Item Name="INSTR.lvlib" Type="Library" URL="../Libraries/INSTR/INSTR.lvlib"/>
+			<Item Name="PS.lvlib" Type="Library" URL="../Libraries/PS/PS.lvlib"/>
+			<Item Name="SCOPE.lvlib" Type="Library" URL="../Libraries/SCOPE/SCOPE.lvlib"/>
 		</Item>
 		<Item Name="Master-Slave" Type="Folder">
 			<Item Name="Master.lvlib" Type="Library" URL="../Libraries/Master/Master.lvlib"/>
@@ -31,11 +33,6 @@
 		</Item>
 		<Item Name="Modules" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Model.lvlib" Type="Library" URL="../Libraries/Model/Model.lvlib"/>
-			<Item Name="DAQ.lvlib" Type="Library" URL="../Libraries/DAQ/DAQ.lvlib"/>
-			<Item Name="PS.lvlib" Type="Library" URL="../Libraries/PS/PS.lvlib"/>
-			<Item Name="SCOPE.lvlib" Type="Library" URL="../Libraries/SCOPE/SCOPE.lvlib"/>
-			<Item Name="INSTR.lvlib" Type="Library" URL="../Libraries/INSTR/INSTR.lvlib"/>
 			<Item Name="Control Panel.lvlib" Type="Library" URL="../Libraries/Control Panel/Control Panel.lvlib"/>
 			<Item Name="Productivity Tool.lvlib" Type="Library" URL="../Libraries/Productivity Tool/Productivity Tool.lvlib"/>
 			<Item Name="DQMH_byOOPRef.lvlib" Type="Library" URL="../Libraries/DQMH_byOOPRef/DQMH_byOOPRef.lvlib"/>
@@ -46,6 +43,7 @@
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
 				<Item Name="AddNamedRendezvousPrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/AddNamedRendezvousPrefix.vi"/>
 				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
